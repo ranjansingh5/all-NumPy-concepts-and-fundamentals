@@ -1,4 +1,4 @@
-# 📌 LEARNING IMPORTANT NUMPY FUNDAMENTALS FOR DATA SCIENCE
+# 📌 IMPORTANT NUMPY FUNDAMENTALS FOR DATA SCIENCE
 
 SOURCE = (https://numpy.org/devdocs/reference/index.html)
 
@@ -15,3 +15,17 @@ SOURCE = (https://numpy.org/devdocs/reference/index.html)
 - [Spliting](Spliting)
 
 - `AND DID PRACTICES`
+
+# 📌 NumPy Advanced Fundamentals
+LIKE
+- Numpy array vs Python lists
+- Comparasion python list and numpy array on the basis of memory
+- Advanced Indexing and Slicing
+- Broadcasting Concepts
+- Broadcasting Rules
+- Working with mathematical formulas
+    - Sigmod Function
+    - Mean Squared Error Function
+    - Binary Cross Entropy Loss Function
+- Working with missing values 
+- Plotting Graphs
