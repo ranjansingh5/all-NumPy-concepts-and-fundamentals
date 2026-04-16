@@ -116,4 +116,90 @@ np.random.uniform() is used to generate random numbers from a uniform distributi
 ---
 `np.count_nonzero`<br>
 np.count_nonzero() is used to count the number of non-zero (non-False) elements in an array.
---
+---
+
+---
+
+# NumPy Used in Data Science Projects
+## 📌 Overview
+
+Data cleaning is a crucial step in the data analysis pipeline. It ensures that the dataset is accurate, consistent, and reliable for further analysis or modeling. In this notebook, we focus on handling missing values and outliers using NumPy.
+
+Missing data can occur due to human errors, data corruption, or issues during data collection. If not handled properly, it can significantly affect the performance of analytical models.
+
+---
+
+## 🎯 Objectives
+
+* Identify and handle missing data
+* Apply various imputation techniques
+* Detect and treat outliers
+* Prepare clean data for machine learning models
+
+---
+
+## 🧹 Data Cleaning Techniques
+
+### 1. Handling Missing Data
+
+We use `numpy.nan` to represent missing values and apply the following methods:
+
+* **Detection:**
+  `np.isnan()` is used to identify missing values.
+
+* **Replacement:**
+  `np.nan_to_num()` replaces NaN values with zero.
+
+* **Deletion:**
+  `np.delete()` removes rows/columns containing missing values.
+
+* **Imputation:**
+  Missing values are replaced with statistical measures like mean.
+
+---
+
+### 2. Methods to Handle Missing Data
+
+* **Deletion:** Remove rows/columns with missing values
+* **Imputation:** Replace with mean or constant values
+* **Interpolation:** Estimate based on nearby values
+* **Prediction:** Use models to predict missing values
+
+---
+
+## 📊 Outlier Detection and Treatment
+
+Outliers can distort analysis results, so we apply multiple techniques:
+
+### ✔ Z-Score Method
+
+* Calculates deviation from mean using standard deviation
+* Removes values beyond a threshold (e.g., z > 2)
+
+### ✔ Percentile Clipping
+
+* Uses `np.percentile()` and `np.clip()`
+* Restricts values within a defined percentile range
+
+### ✔ Median-Based Filtering
+
+* Replaces extreme values with the median
+* Uses percentile thresholds to detect outliers
+
+---
+
+## 🤖 Integration with Machine Learning
+
+NumPy integrates seamlessly with libraries like Scikit-learn.
+We demonstrated a simple Linear Regression model using `LinearRegression` to show how cleaned data can be used for predictions.
+
+---
+
+## 🧪 Example Outcome
+
+* Missing values successfully handled
+* Outliers detected and removed
+* Clean dataset ready for modeling
+* Model prediction example: Input = 6 → Output = 12
+
+---
