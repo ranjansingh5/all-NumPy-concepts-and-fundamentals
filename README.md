@@ -2,17 +2,18 @@
 
 SOURCE = (https://numpy.org/devdocs/reference/index.html)
 
-## Table of Contents
-- [Creating Numpy Array](creating-numpy-array) 
-- [Array Arrtibutes](array-attributes)
-- [Changing Datatype](changing-datatype)
-- [Array Opertations](array-operations)
-- [Array Functions](array-functions)
-- [Indexing and Slicing](indexing-and-slicing)
-- [Iterating](iterating)
-- [Reshaping](reshaping)
-- [Stacking](stacking)
-- [Spliting](Spliting)
+# NumPy Fundamentals
+ ============Table of Contents==============
+- Creating Numpy Array 
+- Array Arrtibutes
+- Changing Datatype
+- Array Opertations
+- Array Functions
+- Indexing and Slicing
+- Iterating
+- Reshaping
+- Stacking
+- Spliting
 
 - `AND DID PRACTICES`
 
@@ -203,3 +204,19 @@ We demonstrated a simple Linear Regression model using `LinearRegression` to sho
 * Model prediction example: Input = 6 → Output = 12
 
 ---
+
+# Best 50 NumPy Functions For Data Science
+
+**========𝗧𝗔𝗕𝗟𝗘 𝗢𝗙 𝗖𝗢𝗡𝗧𝗘𝗡𝗧========**
+- Array Creation Methods
+- Array Operations
+- Replacing Values Inside Array
+- Set Operations
+- Splitting
+- Stacking
+- Comparing Two Arrays
+- Repeating Array Elements
+- Einstein Summation Conventions
+- Statistical Analysis
+- Array Printing Options
+- Save and Load Array Data
