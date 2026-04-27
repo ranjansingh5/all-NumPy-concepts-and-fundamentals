@@ -36,7 +36,6 @@ LIKE
 ---
 
 # 📌 Numpy Advanced Method And Function Practices
-
 ## CONTENTS
 
 `np.sort`<br>
